@@ -1,0 +1,106 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    background: url(./aya1.5.jpg)no-repeat ;
+    background-position: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+    padding: 20px;
+    background: transparent;
+    border:10px solid greenyellow;
+    border-radius: 18px;
+    backdrop-filter: blur(80px);
+}
+
+h1 {
+    color: #001e1d;
+}
+
+.input-container {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#taskInput {
+    padding: 20px;
+    width: 80%;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding-left: 70px;
+    padding-right: 70px;
+
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: #4abd2d;
+    color: #001e1d;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2cbb09;
+}
+
+.button-container {
+    margin: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-btn {
+    background-color: rgb(60, 91, 231);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.edit-btn {
+    background-color: rgb(250, 142, 1);  
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #27ae60; 
+}
+
